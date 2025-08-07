@@ -25,4 +25,4 @@ Resources:
         - !Ref EC2SecurityGroup
       Tags:
         - Key: Name
-          Value: System-Github
+          Value: System-Git
