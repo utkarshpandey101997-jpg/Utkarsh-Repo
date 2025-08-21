@@ -1,0 +1,9 @@
+Here is a simple YAML code snippet to create an Amazon S3 bucket using AWS CloudFormation:
+Resources:
+  MyS3Bucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName: "my-unique-bucket-name"
+      VersioningConfiguration:
+        Status: "Enabled"
+
